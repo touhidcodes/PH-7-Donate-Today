@@ -17,7 +17,6 @@
   font-weight: 700;
   font-size: 45px;
   color: #121212;
-  margin-top: 130px;
 }
 .universal-para {
   font-size: 18px;
@@ -60,6 +59,7 @@ header {
 .donate {
   text-align: center;
   margin: 0 330px;
+  margin-top: 130px;
 }
 
 .donate p {
@@ -106,11 +106,12 @@ header {
 }
 
 /* Donation Plan Section */
-.donation-plan {
-}
 .donation-plan-header {
   margin: 0 374px;
   text-align: center;
+}
+.donation-plan-header h2 {
+  margin-top: 130px;
 }
 
 .donation-plan-header p {
@@ -128,6 +129,7 @@ header {
   height: 250px;
   padding: 0 22px;
   padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .donation-plan-item h4 {
@@ -151,4 +153,19 @@ header {
 .item3 {
   background: #fff4d6;
   border-radius: 5px;
+}
+/* Donation Description Section */
+.donation-description-container {
+  width: 456px;
+  height: 477px;
+  margin: 130px 252px;
+  display: flex;
+  justify-content: space-between;
+  gap: 95px;
+}
+.donation-image {
+  width: 456px;
+  height: 477px;
+  position: absolute;
+  align-items: center;
 }
