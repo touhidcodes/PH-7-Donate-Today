@@ -23,6 +23,9 @@
   font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
+.align-center {
+  text-align: center;
+}
 /* Header Styles */
 header {
   height: 669px;
@@ -100,4 +103,52 @@ header {
 
 .donate hr {
   border: 1px solid #dadada;
+}
+
+/* Donation Plan Section */
+.donation-plan {
+}
+.donation-plan-header {
+  margin: 0 374px;
+  text-align: center;
+}
+
+.donation-plan-header p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.donate-plan-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 170px;
+  gap: 24px;
+}
+.donation-plan-item {
+  width: 360px;
+  height: 250px;
+  padding: 0 22px;
+  padding-top: 60px;
+}
+
+.donation-plan-item h4 {
+  margin-bottom: 16px;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.donation-plan-item p {
+  color: #707070;
+}
+
+.item1 {
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+}
+.item2 {
+  background: rgba(255, 89, 89, 0.1);
+  border-radius: 5px;
+}
+.item3 {
+  background: #fff4d6;
+  border-radius: 5px;
 }
