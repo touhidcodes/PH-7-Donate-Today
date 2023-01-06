@@ -13,6 +13,12 @@
   font-weight: 400;
   font-size: 20px;
 }
+.main-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #121212;
+  margin-top: 130px;
+}
 .universal-para {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
@@ -47,3 +53,8 @@ header {
   margin-top: 30px;
 }
 
+/* Donate Section Styles */
+.donate {
+  text-align: center;
+  margin: 0 330px;
+}
